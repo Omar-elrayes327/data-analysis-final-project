@@ -1,6 +1,7 @@
 
 print('let\'s start')
 data=readxl::read_xlsx("D:\\omarelrayes\\Downloads\\Day 5 -Assignments.xlsx")
+# replace with your path
 reps_d=as.factor(data$reps)
 salt_d=as.factor(data$salt)
 salicylic_d=as.factor(data$salicylic)
